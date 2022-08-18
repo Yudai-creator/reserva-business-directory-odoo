@@ -1,0 +1,15 @@
+.navbar__container{
+    background-color: #367FEE;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.navbar__reserva_logo{
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .navbar__reserva_logo{
+        display: inline;
+    }
+}
