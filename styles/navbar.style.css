@@ -52,7 +52,7 @@
 
 .navbar__links ul li a{
     text-decoration: none;
-    color: #D4E4FB;
+    color: #F1F6FE;
 }
 
 @media (min-width: 640px) {
@@ -110,7 +110,7 @@
 }
 
 .navbar__user-settings{
-    color: #D4E4FB;
+    color: #F1F6FE;
 
     display: flex;
     justify-content: space-between;

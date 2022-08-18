@@ -1,123 +1,40 @@
-.navbar__container{
-    background-color: #367FEE;
-    position: relative;
+.home{
     padding: 1rem;
 }
 
-.navbar__features{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar__features_left{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar__hamburger-menu{
-    cursor: pointer;
-}
-
-.navbar__reserva_logo{
-    display: none;
-    width: 8rem;
-}
-
-@media (min-width: 640px) {
-    .navbar__reserva_logo{
-        display: inline;
-    }
-
-    .navbar__hamburger-menu{
-        display: none;
-    }
-}
-
-.navbar__links{
-    display: none;
-}
-
-.navbar__links ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar__links ul li{
-    list-style: none;
-    margin-left: 1.75rem;
-}
-
-.navbar__links ul li a{
-    text-decoration: none;
-    color: #D4E4FB;
-}
-
-@media (min-width: 640px) {
-    .navbar__links{
-        display: inline;
-    }
-}
-
-.navbar__search_desktop{
-    min-width: 100%;
-    height: 20px;
+.home__hero{
+    position: relative;
     width: 100%;
-    display: none;
-    background-color: #609AF1;
-
-    padding: 0.25rem;
-
-    border-radius: 3px;
-    border-style: none;
+    height: 500px;
+    
+    border-radius: 5px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(110, 197, 255, 0.236), rgba(71, 175, 244, 0.636)), url("https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/home_image/james-baltz-zuhouVw4ZkQ-unsplash_wH8HPPq5v.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1659531129965");
 }
 
-.navbar__search_desktop::placeholder{
-    color: #C5DAFA;
+.home__hero_text{
+    position: absolute;
+    top: 20%;
+    color: #F1F6FE;
+    margin-left: 1rem;
 }
 
-@media (min-width: 640px) {
-    .navbar__search_desktop{
-        display: inline;
-    }
+.home__hero_text h1{
+    font-size: 4.5rem;
 }
 
-.navbar__search_mobile{
-    height: 1.9rem;
+.home__hero_text p{
+    font-size: 1.5rem;
+}
+
+.home__hero_filter{
     width: 100%;
+    height: 7rem;
+    padding: 1rem;
+    background-color: #F1F6FE;
+    position: absolute;
+    top: 90%;
 
-    background-color: #609AF1;
-
-    margin-top: 1rem;
-    margin-bottom: 0.25rem;
-
-    padding: 0.25rem;
-
-    border-radius: 3px;
-    border-style: none;
-}
-
-.navbar__search_mobile::placeholder{
-    color: #C5DAFA;
-}
-
-@media (min-width: 640px) {
-    .navbar__search_mobile{
-        display: none;
-    }
-}
-
-.navbar__user-settings{
-    color: #D4E4FB;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar__user-settings span{
-    opacity: .5;
-    font-size: small;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 10px rgb(221, 221, 221);
 }
