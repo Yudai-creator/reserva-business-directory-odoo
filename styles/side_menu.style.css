@@ -1,0 +1,38 @@
+/* Side menu */
+
+.side_menu{
+    width: 15%;
+    height: 100vh;
+    background-color: #E2EDFC;
+}
+
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.features p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    opacity: 0;
+}
+
+.features_buttons ul{
+    margin-top: 1.5rem;
+}
+
+.button_container{
+    list-style: none;
+    padding: 1.2rem;
+
+    /* background-color: rgb(191, 191, 191); */
+}
+
+.button_route{
+    text-decoration: none;
+    color: #6090F1;
+    font-weight: 700;
+}

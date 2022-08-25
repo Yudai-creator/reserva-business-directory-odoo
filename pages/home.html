@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/globals.css">
     <link rel="stylesheet" href="../styles/home.style.css">
     <link rel="stylesheet" href="../styles/navbar.style.css">
+    <link rel="stylesheet" href="../styles/side_menu.style.css">
 </head>
 <body>
     <header>
@@ -35,9 +36,9 @@
                 </div>
                 
 
-                <div>
+                <!-- <div>
                     <input class="navbar__search_desktop" type="text placeholder="Search any products"">
-                </div>
+                </div> -->
 
                 <div class="navbar__user-settings">
                     <div>
@@ -49,13 +50,56 @@
                 
             </div>
 
-            <div>
+            <!-- <div>
                 <input class="navbar__search_mobile" type="text" placeholder="Search any products">
-            </div>
+            </div> -->
             
         </div>
     </header>
     <main>
+        <div class="side_menu">
+            <div class="features">
+                <p>Features</p>
+                <svg class="arrow_function" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                    <path id="bxs-arrow-from-right" d="M18,6h2V18H18ZM10,18V13h6V11H10V6L4,12Z" transform="translate(-4 -6)" fill="#367FEE"/>
+                </svg>
+            </div>
+            <div class="features_buttons">
+                <ul>
+                    <li class="button_container">
+                        <a class="button_route" href="home.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                                <path id="bxs-home" d="M16.806,9.757,10.056,2.252a.772.772,0,0,0-1.114,0L2.193,9.757A.751.751,0,0,0,2.75,11.01h1.5v5.254a.75.75,0,0,0,.75.751h2.25A.75.75,0,0,0,8,16.264v-3h3v3a.75.75,0,0,0,.75.751H14a.75.75,0,0,0,.75-.751V11.01h1.5a.749.749,0,0,0,.557-1.253Z" transform="translate(-2 -2.014)" fill="#367FEE"/>
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    <li class="button_container">
+                        <a class="button_route" href="browse-suppliers.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                                <path id="bxs-search" d="M8.415,2A6.414,6.414,0,1,0,12.34,13.476L15.866,17,17,15.866l-3.525-3.525A6.4,6.4,0,0,0,8.415,2Z" transform="translate(-2 -2)" fill="#367FEE"/>
+                            </svg>
+                            Browse Suppliers
+                        </a>
+                    </li>
+                    <li class="button_container">
+                        <a class="button_route" href="your-profile.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20">
+                                <g id="Customization_solid" transform="translate(-3 -2)">
+                                <path id="Path_125" data-name="Path 125" d="M20.118,18.143H18A2.931,2.931,0,0,0,15.088,16a3,3,0,1,0,0,6A2.931,2.931,0,0,0,18,19.857h2.118A.871.871,0,0,0,21,19,.822.822,0,0,0,20.118,18.143Z" fill="#6090F1"/>
+                                <path id="Path_126" data-name="Path 126" d="M10.149,18h-6.3a1.013,1.013,0,0,0,0,2h6.3a1.013,1.013,0,0,0,0-2Z" fill="#6090F1"/>
+                                <path id="Path_127" data-name="Path 127" d="M3.851,6h6.3A.939.939,0,0,0,11,5a1.006,1.006,0,0,0-.851-1h-6.3A.939.939,0,0,0,3,5,1.006,1.006,0,0,0,3.851,6Z" fill="#6090F1"/>
+                                <path id="Path_128" data-name="Path 128" d="M15.088,8A2.931,2.931,0,0,0,18,5.857h2.118A.871.871,0,0,0,21,5a.936.936,0,0,0-.882-.857H18A2.931,2.931,0,0,0,15.088,2,3.083,3.083,0,0,0,12,5,3.083,3.083,0,0,0,15.088,8Z" fill="#6090F1"/>
+                                <path id="Path_129" data-name="Path 129" d="M3.882,12.857H6A3.03,3.03,0,0,0,8.912,15,3.083,3.083,0,0,0,12,12,3.083,3.083,0,0,0,8.912,9,2.931,2.931,0,0,0,6,11.143H3.882A.871.871,0,0,0,3,12,.936.936,0,0,0,3.882,12.857Z" fill="#6090F1"/>
+                                <path id="Path_130" data-name="Path 130" d="M20.14,11H13.86A.943.943,0,0,0,13,12a1.01,1.01,0,0,0,.86,1h6.28A.943.943,0,0,0,21,12,.943.943,0,0,0,20.14,11Z" fill="#6090F1"/>
+                                </g>
+                            </svg>
+                            Your Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <section class="home">
             <div class="home__hero">
                 <div class="home__hero_text">
@@ -66,6 +110,10 @@
                 <div class="home__hero_filter">
                     <p>Explore by product categories</p>
                 </div>
+            </div>
+            <div class="home__suppliers_info">
+                <h2>Our best suppliers</h2>
+                <hr>
             </div>
         </section>
     </main>
