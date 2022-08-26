@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    position: relative;
+}
+
+.supplier{
+    width: 85%;
+    position: relative;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+.supplier h2{
+    margin-top: 1rem;
+}
+
+.suppliers__search_bar{
+    margin-top: 3rem;
+}
+
+.suppliers__search_bar input{
+    min-width: 100%;
+    height: 20px;
+    width: 100%;
+    background-color: #E2EDFC;
+
+    padding: 1.3rem 1rem;
+
+    border-radius: 3px;
+    border-style: none;
+}
+
+.suppliers__search_bar input::placeholder{
+    color: #6FA4F2
+}
+
+.supplier__list_card{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 3rem;
+    padding: 1rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 15px  rgb(221, 221, 221);
+}
