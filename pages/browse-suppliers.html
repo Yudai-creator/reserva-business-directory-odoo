@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../styles/browse_suppliers.style.css">
     <link rel="stylesheet" href="../styles/navbar.style.css">
     <link rel="stylesheet" href="../styles/side_menu.style.css">
+    
+
 </head>
 <body>
     <header>
@@ -19,22 +21,25 @@
                         <img class="navbar__hamburger-menu" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/hamburger-menu-svg_Wxq0wSF-6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659533793921" alt="hambuerger menu">
                         <img class="navbar__reserva_logo" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/reserva-fs-logo_j23muE1bz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659533612929" alt="reserva-fs-logo">
                     </div>
-    
+                </div>
+                
+                <div class="navbar__user-settings">
                     <div class="navbar__links">
                         <ul>
                             <li class="navbar__links_wrapper">
-                                <a href="home.html">Home</a>
+                                <a href="#">For Buyers</a>
                             </li>
                             <li class="navbar__links_wrapper">
-                                <a href="browse-suppliers.html">Browse Suppliers</a>
+                                <a href="#">For Suppliers</a>
                             </li>
                             <li class="navbar__links_wrapper">
-                                <a href="your-profile.html">Your Profile</a>
+                                <a href="#">Reserva Price Exchange</a>
+                            </li>
+                            <li class="navbar__links_wrapper">
+                                <a href="#">Marketpalce</a>
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="navbar__user-settings">
                     <div>
                         <p>Jhon Jackson</p>
                         <span>Company name</span>
@@ -47,7 +52,7 @@
 
     <main>
          <!-- Side menu para navegar entre cada una de las opciones del directorio -->
-         <div class="side_menu">
+        <div class="side_menu">
             <div class="features">
                 <p>Features</p>
                 <svg class="arrow_function" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
@@ -92,15 +97,84 @@
         </div>
 
         <section class="supplier">
-            <h2>Look for the best suppliers</h2>
+            <h2>Find the best suppliers in the produce industry</h2>
+
+            <div class="supplier__filter">
+                <h3>Filter by Business Type</h2>
+                <div class="filter_categories">
+                    <div class="categories_first_column">
+                        <p class="selected">All</p>
+                        <p>Packer</p>
+                        <p>Exporter</p>
+                        <p>Shipper</p>
+                        <p>Broker</p>
+                    </div>
+                    <div class="categories_second_column">
+                        <p>Grower</p>
+                        <p>Producer</p>
+                        <p>Wholesaler</p>
+                        <p>Retailer</p>
+                        <p>Food Service</p>
+                    </div>
+                </div>
+            </div>
             <div class="suppliers__search_bar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                    <path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z" fill="#7A7A7A"/>
+                </svg>
                 <input type="text" placeholder="Search any products in the produce industry">
             </div>
 
             <!-- Listado de empresas -->
             <div class="supplier__list">
                 <div class="supplier__list_card">
-                    
+                    <div class="card_first_column">
+                        <a href="supplier-profile.html">Campo Verde Fruits</a>
+                        <p>Mexico, Guadalajara | Producer</p>
+                        <ul class="card_overview">
+                            <li>Trading company that started working in 2015.</li>
+                            <li>Sending product to Europe and the Middle East.</li>
+                            <li>Alliances with producers and packers who allow us to <br>
+                                 send avocado all year round.</li>
+                            <li>Strongest season from May to February.</li>
+                        </ul>
+                        <div class="card_commodities_badge">
+                            <p>Avocado</p>
+                            <p>Mango</p>
+                        </div>
+                        <div class="card_actions">
+                            <button class="card_cta">Contact</button>
+                            <a href="supplier-profile.html">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="card_second_column">
+                        <h3>Supplier commodities</h3>
+                        <div class="card_product">
+                            <div class="product_name">
+                                <p>Product</p>
+                                <strong>Avocados</strong>
+                            </div>
+                            <div class="product_variant">
+                                <p>Variant</p>
+                                <strong>Hass</strong>
+                            </div>
+                        </div>
+
+                        <h3>Company Certifications</h3>
+                        <div class="card_certifications">
+                            <div class="certification_issued_date">
+                                <p>Issued Date</p>
+                                <strong>Nov 15, 2020</strong>
+                            </div>
+                            <img src="../assets/browse_suppliers_assets/global-g-a-p-logo-7AE0F2947E-seeklogo.com.png" alt="certification">
+                        </div>
+                    </div>
+
+                    <div class="card_third_column">
+                        <img class="company_logo" src="../assets/browse_suppliers_assets/logo campo verde.PNG" alt="company logo">
+                        <img class="product_reference" src="../assets/browse_suppliers_assets/avocados.png" alt="avocados">
+                    </div>
                 </div>
             </div>
         </section>
