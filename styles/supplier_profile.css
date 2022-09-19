@@ -16,7 +16,7 @@ main{
     height: 250px;
     background-color: white;
 
-    box-shadow: 0 2px 15px  rgb(236, 236, 236);;
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
 }
 
 .close {
@@ -73,6 +73,24 @@ main{
     text-decoration: none;
     font-weight: 500;
     color: #616161;
+
+    transition: all .5s ease-in-out;
+}
+
+.heading_tabs a:focus{
+    color: #2273EC;
+}
+
+.heading_tabs a:focus::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: #2273EC;
+
+    border-radius: 2px 2px 0px 0;
 }
 
 .heading_tabs a:nth-child(1){
@@ -106,6 +124,8 @@ main{
 
 .profile_body{
     position: relative;
+    display: flex;
+    justify-content: space-between;
     padding: 4rem 2rem 0 2rem;
 }
 
@@ -114,6 +134,55 @@ main{
     margin-top: 1rem;
 }
 
-.info_story{
+.field{
     margin-top: 3rem;
+}
+
+.field h2{
+    margin-bottom: 1rem;
+}
+
+.info_location img{
+    width: 80%;
+}
+
+.info_action button{
+    background-color: #FFFFFF;
+    padding: .5rem 1rem .5rem 1rem;
+    border: 3px solid #2273EC;
+    border-radius: 5px;
+
+    color: #2273EC;
+    font-weight: 500;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+.company_details{
+    width: 25%;
+    max-height: 550px;
+    padding: 2rem;
+
+    background-color: white;
+
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.company_details hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.company_details .details_field{
+    margin-bottom: 1.5rem;
+}
+
+.company_details .details_field p{
+    opacity: .7;
+}
+
+.company_details .details_field h3{
+    margin-top: .5rem;
 }
