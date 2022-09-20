@@ -10,6 +10,8 @@ main{
     width: 85%;
 }
 
+/* Overview */
+
 .profile_heading{
     position: relative;
     padding: 4rem 2rem 0 2rem;
@@ -36,6 +38,10 @@ main{
     justify-content: space-between;
 }
 
+.body_info{
+    width: 100%;
+}
+
 .company_info{
     display: flex;
     align-items: center;
@@ -60,6 +66,12 @@ main{
     font-size: 1rem;
 
     cursor: pointer;
+
+    transition: all .2s ease-in;
+}
+
+.heading_company .heading_actions button:hover{
+    background-color: #F1F6FE;
 }
 
 .heading_tabs{
@@ -122,16 +134,20 @@ main{
 }
 
 
-.profile_body{
+.profile_info_container{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 4rem 2rem 0 2rem;
+    padding: 4rem 2rem 4rem 2rem;
 }
 
-.profile_body p{
+.profile_info_container p{
     max-width: 80ch;
     margin-top: 1rem;
+}
+
+.container_first_column{
+    width: 100%;
 }
 
 .field{
@@ -157,7 +173,55 @@ main{
     font-size: 1rem;
 
     cursor: pointer;
+    transition: all .2s ease-in;
 }
+
+.info_action button:hover{
+    background-color: #F1F6FE;
+}
+
+
+/* Products section */
+
+.product_description_card{
+    position: relative;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+
+    width: 40%;
+}
+
+.product_description_card hr{
+    border-style: dashed;
+}
+
+.product_badges{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.product_badges p{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #C5DAFA;
+    border-radius: 2px;
+}
+
+.card_field{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+.card_field img{
+    max-width: 4em;
+}
+
+
+/* Company details card */
 
 .company_details{
     width: 25%;
