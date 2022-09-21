@@ -183,7 +183,7 @@ main{
 
 /* Products section */
 
-.product_description_card{
+.description_card{
     position: relative;
     padding: 2rem;
     margin-top: 2rem;
@@ -193,7 +193,7 @@ main{
     width: 40%;
 }
 
-.product_description_card hr{
+.description_card hr{
     border-style: dashed;
 }
 

@@ -1,0 +1,84 @@
+main{
+    display: flex;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.profile_edit{
+    position: relative;
+    width: 85%;
+}
+
+.profile_heading{
+    position: relative;
+    padding: 2rem 2rem 0 2rem;
+    height: 250px;
+    background-color: white;
+
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+}
+
+.heading_tabs{
+    position: absolute;
+    top: 90%;
+}
+
+
+.heading_tabs a{
+    position: relative;
+    margin-right: 2.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #616161;
+
+    transition: all .5s ease-in-out;
+}
+
+.heading_tabs a:focus{
+    color: #2273EC;
+}
+
+.heading_tabs a:focus::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: #2273EC;
+
+    border-radius: 2px 2px 0px 0;
+}
+
+.heading_tabs a:nth-child(1){
+    color: #2273EC;
+}
+
+.heading_tabs a:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: #2273EC;
+
+    border-radius: 2px 2px 0px 0;
+}
+
+.heading_tabs a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+    background-color: #61616145;
+
+    border-radius: 2px 2px 0px 0;
+}
+
+.profile_edit_features{
+    padding: 4rem 2rem 4rem 2rem;
+}
