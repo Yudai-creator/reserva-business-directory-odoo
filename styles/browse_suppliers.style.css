@@ -108,17 +108,17 @@ main{
 }
 
 .supplier__list_card .card_third_column{
-    position: relative;
+    position: relative;  
 }
 
 .card_third_column .product_reference{
-    width: 22rem;
+    width: 100%;
     border-radius: 0 5px 5px 0;
 }
 
 .card_third_column .company_logo{
-    position: absolute;
-    left: 57%;
+    /* position: absolute;
+    left: 57%; */
     border-radius: 0 5px 0 0;
 }
 
@@ -132,8 +132,8 @@ main{
     margin-bottom: 1rem;
 }
 
-.card_second_column h3:nth-child(2){
-    margin-top: 1rem;
+.card_second_column #certidications{
+    margin-top: 3rem;
 }
 
 .card_second_column p{
@@ -160,7 +160,9 @@ main{
 
 .supplier__list_card .card_first_column{
     position: relative;
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .card_first_column a:nth-child(1){
@@ -189,7 +191,7 @@ main{
 }
 
 .card_commodities_badge p{
-    margin-left: 1rem;
+    
     padding: .5rem;
     border-radius: 5px;
 
@@ -197,6 +199,10 @@ main{
     font-weight: 500;
 
     background-color: #E2EDFC;
+}
+
+.card_commodities_badge p:nth-child(2){
+    margin-left: 1rem;
 }
 
 .card_first_column .card_actions{
@@ -215,6 +221,12 @@ main{
     font-size: 1rem;
 
     cursor: pointer;
+
+    transition: all .2s ease-in;
+}
+
+.card_actions button:hover{
+    background-color: #F1F6FE;
 }
 
 .card_actions a{

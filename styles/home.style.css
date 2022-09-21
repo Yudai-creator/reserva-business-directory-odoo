@@ -37,14 +37,31 @@ main{
 
 .home__hero_filter{
     width: 100%;
-    height: 7rem;
+    
     padding: 1rem;
-    background-color: #F1F6FE;
+    background-color: white;
     position: absolute;
     top: 90%;
 
     border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 10px rgb(221, 221, 221);
+}
+
+.filter_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter_images figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter_images img{
+    margin-top: 2rem;
+    max-width: 5rem;
 }
 
 .home__hero_filter p{
@@ -56,7 +73,7 @@ main{
     position: relative;
     width: 100%;
     height: 500px;
-    margin-top: 5rem;
+    margin-top: 10rem;
     padding: 1rem;
 
     border-radius: 5px;

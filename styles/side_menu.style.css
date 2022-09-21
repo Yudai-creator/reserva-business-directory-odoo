@@ -4,6 +4,8 @@
     width: 15%;
     position: relative;
     background-color: #E2EDFC;
+
+    transition: all .2s ease-in;
 }
 
 
@@ -17,6 +19,12 @@
 
     left: 13.8%;
     top: 15%;
+}
+
+
+
+.arrow_function{
+    transition: all .2s ease-in;
 }
 
 .features p{
@@ -47,4 +55,15 @@
     color: #6090F1;
     font-weight: 700;
     margin-left: 1rem;
+
+    display: flex;
+}
+
+.button_route p{
+    margin-left: 1rem;
+    transition: all .2s ease-in;
+}
+
+.button_route p:hover{
+    text-decoration: underline;
 }
