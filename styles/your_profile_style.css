@@ -79,6 +79,162 @@ main{
     border-radius: 2px 2px 0px 0;
 }
 
-.profile_edit_features{
+
+/* Fields */
+
+.profile_edit_fields{
+    width: 100%;
     padding: 4rem 2rem 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_first_column{
+    width: 90%;
+}
+
+.features_second_column{
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.feature_field{
+    position: relative;
+    width: 90%;
+}
+
+.field_head{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.decor{
+    width: 90%;
+    height: 10px;
+    background-color: #E2EDFC;
+    border-radius: 5px;
+
+    margin-top: .5rem;
+}
+
+.field_decor2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1rem;
+}
+
+.decor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 200px;
+    background-color: #E2EDFC;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.decor2 p{
+    color: #2273EC;
+    font-weight: 500;
+}
+
+.decor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #E2EDFC;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.decor3 p{
+    color: #2273EC;
+    font-weight: 500;
+}
+
+
+
+
+/* second column */
+
+.field_logo{
+    width: 40%;
+    max-height: 550px;
+    padding: 2rem;
+
+    background-color: white;
+
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+    border-radius: 5px; 
+}
+
+.field_logo hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.field_logo_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_logo_decor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #E2EDFC;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.company_details{
+    width: 40%;
+    max-height: 550px;
+    padding: 2rem;
+
+    background-color: white;
+
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.company_details .field_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company_details hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.company_details .details_field{
+    margin-bottom: 1.5rem;
+}
+
+.company_details .details_field p{
+    opacity: .7;
+}
+
+.company_details .details_field h3{
+    margin-top: .5rem;
 }
