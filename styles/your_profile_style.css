@@ -111,6 +111,13 @@ main{
     width: 90%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+.field_decor{
+    cursor: pointer;
 }
 
 .decor{
@@ -165,6 +172,45 @@ main{
 .decor3 p{
     color: #2273EC;
     font-weight: 500;
+}
+
+/* Products tab */
+
+.description_card{
+    position: relative;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 15px  rgb(236, 236, 236);
+
+    width: 40%;
+}
+
+.description_card hr{
+    border-style: dashed;
+}
+
+.product_badges{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.product_badges p{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #C5DAFA;
+    border-radius: 2px;
+}
+
+.card_field{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+.card_field img{
+    max-width: 4em;
 }
 
 

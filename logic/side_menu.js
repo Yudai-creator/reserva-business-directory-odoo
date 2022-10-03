@@ -4,6 +4,7 @@ let sideMenuContainer = document.querySelector(".side_menu");
 let supplierListContainer = document.querySelector(".supplier");
 let profileInfoContainer = document.querySelector(".profile");
 let homeContainer = document.querySelector(".home");
+let profileEditContainer = document.querySelector(".profile_edit");
 
 let routes = document.querySelectorAll(".button_route");
 let routeText = document.querySelectorAll(".route_text");
@@ -26,6 +27,10 @@ arrow.addEventListener("click", () => {
         if(profileInfoContainer){
             profileInfoContainer.style.width = "95%";
         }
+
+        if(profileEditContainer){
+            profileEditContainer.style.width = "95%";
+        }
         
 
 
@@ -44,6 +49,10 @@ arrow.addEventListener("click", () => {
         
         if(profileInfoContainer){
             profileInfoContainer.style.width = "85%";
+        }
+
+        if(profileEditContainer){
+            profileEditContainer.style.width = "85%";
         }
         
 
